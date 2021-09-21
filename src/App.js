@@ -1,5 +1,5 @@
 import './App.css';
-// import AutoCompleteComponent from './Autcomplete';
+import AutoCompleteComponent from './AutocompleteComponent';
 // import AutoSuggestComponent from './Autosuggest';
 // import DownshiftComponent from './Downshift';
 // import AutoSuggestClass from './AutoSuggestComponentClass'
@@ -9,7 +9,7 @@ import DropdownCombobox from './UseComboboxComponent';
 function App() {  
   return (
     <div className="App">
-        {/* <AutoCompleteComponent/> */}
+        <AutoCompleteComponent/>
         {/* <AutoSuggestComponent /> */}
         {/* <DownshiftComponent /> */}
         {/* <AutoSuggestClass /> */}
