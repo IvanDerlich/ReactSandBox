@@ -10,6 +10,7 @@ function AutoCompleteComponent () {
   });
   return (
     <>
+      <h1>Auto Complete</h1>
       <AutoComplete
           apiKey={key}
           onPlaceSelected={(place) => console.log(place)}
@@ -22,6 +23,7 @@ function AutoCompleteComponent () {
           >
           </input>
         </form>  
+        <h1>---</h1>
     </>
   );
 }

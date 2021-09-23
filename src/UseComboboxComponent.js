@@ -1,8 +1,8 @@
 import * as React from 'react'
 import {useCombobox} from 'downshift'
 
-import { items, menuStyles, comboboxStyles} from '../src/styles/shared'
-import { useState } from 'react'
+import { menuStyles, comboboxStyles} from '../src/styles/shared'
+import items from './shared/items';
 
 function DropdownCombobox() {
   // const items = ['Neptunium', 'Plutonium']
@@ -30,6 +30,7 @@ function DropdownCombobox() {
 
   return (
     <>
+      <h1>Down Shift</h1>
       <label {...getLabelProps()}>Choose an element:</label>
       <div 
         style={comboboxStyles}
@@ -61,6 +62,7 @@ function DropdownCombobox() {
             </li>
           ))}
       </ul>
+      <h1>---</h1>
     </>
   )
 }
